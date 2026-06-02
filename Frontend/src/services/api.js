@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Get API base URL from Vite environment variables or default to local backend port 5000
-const API_URL = import.meta.env.VITE_API_URL || "https://blog-management-uoa4.onrender.com";
+const API_URL ="https://blog-management-uoa4.onrender.com";
 
 const api = axios.create({
   baseURL: API_URL,
