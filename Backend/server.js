@@ -22,7 +22,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:4001", // Vite default port
+    origin: process.env.FRONTEND_URL || "http://localhost:4001", "https://blog-management-liart.vercel.app/"// Vite default port
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }),
